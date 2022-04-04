@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap');
+
+body, header, img,h1, h2, main, section, p, div, input, textarea, button, label, footer, hr{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(223, 223, 222);
+}
+header{
+    background: rgb(223, 223, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 160px;
+}
+.linha-horizontal {
+        width: 1400px;
+        border: 1px solid #fff;
+        opacity: 0.5;
+        margin: 100px;
+        position: absolute;
+        top: 60px;
+}
+header img{
+    width: 130px;
+}
+header h1{
+    color: white;
+    margin-left: 5px;
+    font-family: 'BIZ UDMincho', serif;
+    font-weight: bold;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 8px;
+    height: 30px;
+    width: 255px;
+    background-color: #F7F5F2;
+    border-radius: 50px;
+}
+
+.prato {
+    height: 100px;
+    border-radius: 0px;
+
+}
+section{
+    background: rgba( 141, 141, 170, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+    width: 450px;
+    height: 470px;
+    margin-top: 40px;
+    color: #808080;
+    text-align: center;
+}
+section h2{
+    font-weight: 200px;
+    font-family: 'BIZ UDMincho', serif;
+    color: black;
+}
+section p{
+    margin: 10px 0;
+}
+.formulario{
+    padding: 50px;
+}
+section label{
+    display: none;
+}
+section textarea{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+}
+section button{
+    font-size:15px;
+    font-family:Arial;
+    width:137px;
+    height:39px;
+    border-width:1px;
+    color:rgba(0, 0, 0, 1);
+    border-color:rgba(0, 0, 0, 1);
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+    background:rgba(235, 219, 226, 0.49);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+a{
+    color: black;
+}
+footer{
+    height: 150px;
+    background-image: url("/assets/img/fundo-rodape.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
