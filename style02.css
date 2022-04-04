@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap');
+
+body, header, img,h1, h2, main, section, p, div, input, textarea, button, label, footer, hr{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(223, 223, 222);
+}
+header{
+    background: rgb(223, 223, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 160px;
+}
+.linha-horizontal {
+        width: 1400px;
+        border: 1px solid #fff;
+        opacity: 0.5;
+        margin: 100px;
+        position: absolute;
+        top: 60px;
+}
+header img{
+    width: 130px;
+}
+header h1{
+    color: white;
+    margin-left: 5px;
+    font-family: 'BIZ UDMincho', serif;
+    font-weight: bold;
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+section{
+    background: rgba( 141, 141, 170, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+    width: 450px;
+    height: 470px;
+    margin-top: 40px;
+    color: #808080;
+    text-align: center;
+}
+section h2{
+    font-weight: 200px;
+    font-family: 'BIZ UDMincho', serif;
+    color: black;
+}
+
+p {
+    color: black;
+    font-family: 'BIZ UDMincho', serif;
+    margin-top: 50px;
+}
+
+a{
+    color: black;
+}
+
+footer{
+    height: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+}
